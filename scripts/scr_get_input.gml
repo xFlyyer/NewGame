@@ -21,3 +21,4 @@ back_key = keyboard_check_pressed(ord('Q'));
 switch_key = keyboard_check_pressed(vk_control);
 hook_key = keyboard_check_pressed(vk_lshift);
 deflect_key = keyboard_check_pressed(ord('Q'));
+shield_key = keyboard_check_pressed(ord('F'));
