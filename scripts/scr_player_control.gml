@@ -1,51 +1,60 @@
 ///scr_player_move
 
-//movement/ pause
-if(up_key){
+// Movement code
+if(move_key[0]){
 
-}else if(left_key){
+}
+else if(move_key[1]){
 
-}else if(down_key){
+}
+else if(move_key[2]){
 
-}else if(right_key){
-
-}else if(pause_key){
+}
+else if(move_key[3]){
 
 }
 
-if(switch_key){
-    if(roll_key != 0){
-        roll_key = 0
-        dash_key = keyboard_check_pressed(vk_space);
-    }else{
-        dash_key = 0;
-        roll_key = keyboard_check_pressed(vk_space);
+if(special_key[3]){
+    
+    if(action = 0){
+        action = 1;
     }
+    else{
+        action = 0;
+    }
+    
 }
 
-//roll & dash
+// Roll & dash code
 
-if(roll_key){
+if(action_key[2]){
+    // Put the code of the roll and dash under your desired value
+    switch(action){
+        case 0:;break;
+        case 1:;break;
+    }
+    
+}
 
-}else if(dash_key){
+// Attack code
+
+if(action_key[0]){
+
+}
+else if(action_key[1]){
 
 }
 
-//attack
-
-if(attack_key){
-
-}else if(shoot_key){
+// basic abilities
+if(special_key[1]){ // Interact
 
 }
+else if(special_key[2]){ // Back key
 
-// basic abillitys
-if(interact_key){
+}
+else if(action_key[3]){ // Hook key
 
-}else if(back_key){
-
-}else if(hook_key){
-
-}else if(deflect_key){
+}
+else if(action_key[4]){ // Deflect key
 
 }
