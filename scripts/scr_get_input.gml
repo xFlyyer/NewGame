@@ -1,24 +1,24 @@
-///scr_get_input
+/// scr_get_input()
 
-//controls/movement
-up_key = keyboard_check_pressed(ord('W'));
-left_key = keyboard_check_pressed(ord('A'));
-down_key = keyboard_check_pressed(ord('S'));
-right_key = keyboard_check_pressed(ord('D'));
-pause_key = keyboard_check_pressed(vk_escape);
+// Arrays use up less resources, and it looks cooler
 
-//abilitys
-attack_key = mouse_check_button_pressed(mb_left);
-shoot_key = mouse_check_button_pressed(mb_right);
+// Movement keys
+move_key[0] = ord('W');
+move_key[1] = ord('A');
+move_key[2] = ord('S');
+move_key[3] = ord('D');
 
-// dash is fast gets over gaps
-dash_key = 0;
+// Action keys
+action_key[0] = mouse_check_button_pressed(mb_left); // Attack key
+action_key[1] = mouse_check_button_pressed(mb_right); // Shoot key
+action_key[2] = 0; // The dash key
+action_key[3] = keyboard_check_pressed(vk_space); // Roll key
+action_key[4] = keyboard_check_pressed(vk_lshift); // Hook key
+action_key[5] = keyboard_check_pressed(ord('Q')); // Deflect key
+action_key[6] = keyboard_check_pressed(ord('F')); // Shield key
 
-//roll is slower but doges bullets and make you invinsible while rolling
-roll_key = keyboard_check_pressed(vk_space);
-interact_key = keyboard_check_pressed(ord('E'));
-back_key = keyboard_check_pressed(ord('Q'));
-switch_key = keyboard_check_pressed(vk_control);
-hook_key = keyboard_check_pressed(vk_lshift);
-deflect_key = keyboard_check_pressed(ord('Q'));
-shield_key = keyboard_check_pressed(ord('F'));
+// Special keys
+special_key[0] = keyboard_check_pressed(vk_escape); // Pause key
+special_key[1] = keyboard_check_pressed(ord('E')); // Interact key
+special_key[2] = keyboard_check_pressed(ord('Q')); // Back key
+special_key[3] = keyboard_check_pressed(vk_control); // Switch key
