@@ -1,4 +1,4 @@
-///scr_get_input
+///scr_get_input()
 
 //controls/movement
 up_key = keyboard_check_pressed(ord('W'));
