@@ -7,9 +7,14 @@ down_key = keyboard_check_pressed(ord('S'));
 right_key = keyboard_check_pressed(ord('D'));
 pause_key = keyboard_check_pressed(vk_escape);
 
+move_key[0] = keyboard_check_pressed(ord('W'));
+move_key[1] = keyboard_check_pressed(ord('A'));
+move_key[2] = keyboard_check_pressed(ord('S'));
+move_key[3] = keyboard_check_pressed(ord('D'));
+
 //abilitys
 attack_key = mouse_check_button_pressed(mb_left);
-shoot_key = mouse_check_button_pressed(mb_right);
+block_key = mouse_check_button_pressed(mb_right);
 
 // dash is fast gets over gaps
 dash_key = 0;
