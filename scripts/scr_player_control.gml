@@ -1,26 +1,16 @@
 ///scr_player_move
 
-//movement/ pause
-if(movement_key[0]){
+//movement
+if(move_key[0]){
 
-}else if(left_key){
+}else if(move_key[1]){
 
-}else if(down_key){
+}else if(move_key[2]){
 
-}else if(right_key){
+}else if(move_key[3]){
 
-}else if(pause_key){
-
-}
-
-if(switch_key){
-    if(roll_key != 0){
-        roll_key = 0
-        dash_key = keyboard_check_pressed(vk_space);
-    }else{
-        dash_key = 0;
-        roll_key = keyboard_check_pressed(vk_space);
-    }
+}else{
+    
 }
 
 //roll & dash
