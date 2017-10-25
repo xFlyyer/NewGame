@@ -16,6 +16,7 @@ action_key[0] = keyboard_check_pressed(ord('E')); //use
 action_key[1] = keyboard_check_pressed(vk_space); //roll
 action_key[2] = keyboard_check_pressed(vk_control); //crouch
 action_key[3] = keyboard_check_pressed(ord('F')); //equip / unequip shield
+action_key[4] = keyboard_check_pressed(vk_lshift); //sprint
 
 //control keys
 control_key[0] = keyboard_check_pressed(vk_escape); //pause
