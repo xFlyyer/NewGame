@@ -20,5 +20,5 @@ action_key[4] = keyboard_check_pressed(vk_lshift); //sprint
 
 //control keys
 control_key[0] = keyboard_check_pressed(vk_escape); //pause
-control_key[1] =keyboard_check_pressed(ord('E')); //accept
+control_key[1] = keyboard_check_pressed(ord('E')); //accept
 control_key[2] = keyboard_check_pressed(ord('Q')); // back
