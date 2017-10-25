@@ -1,7 +1,7 @@
 ///scr_player_move
 
 //movement/ pause
-if(up_key){
+if(movement_key[0]){
 
 }else if(left_key){
 
