@@ -9,33 +9,36 @@ if(move_key[0]){
 
 }else if(move_key[3]){
 
-}else{
+}
+
+//attack keys
+if(atack_key[0]){
+    
+}else if(attack_key[1]){
     
 }
 
-//roll & dash
+//action keys
+if(action_key[0]){//use
+    
+}else if(action_key[1]){//roll
 
-if(roll_key){
-
-}else if(dash_key){
-
+}else if(action_key[2]){//crouch
+    
+}else if(action_key[3]){//equip/unequip shield
+    
+}else if(action_key[4]){//sprint
+    
 }
 
-//attack
-
-if(attack_key){
-
-}else if(shoot_key){
-
+//control keys
+if(control_key[0]){
+    
+}else if(control_key[1]){
+    
+}else if(control_key[2]){
+    
 }
 
-// basic abillitys
-if(interact_key){
 
-}else if(back_key){
-
-}else if(hook_key){
-
-}else if(deflect_key){
-
-}
+//controller controls
