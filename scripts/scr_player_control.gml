@@ -32,11 +32,11 @@ if(action_key[0]){//use
 }
 
 //control keys
-if(control_key[0]){
+if(control_key[0]){//pause
     
-}else if(control_key[1]){
+}else if(control_key[1]){//accept
     
-}else if(control_key[2]){
+}else if(control_key[2]){//back
     
 }
 
