@@ -10,6 +10,7 @@ move_key[3] = keyboard_check_pressed(ord('D')); //move left
 //attack / block
 attack_key[0] = mouse_check_button_pressed(mb_left); //attack
 attack_key[1] = mouse_check_button_pressed(mb_right); //block
+attack_key[2] = keyboard_check_button_pressed(vk_lshift); //heavy
 
 //action keys
 action_key[0] = keyboard_check_pressed(ord('E')); //use
@@ -23,7 +24,19 @@ control_key[0] = keyboard_check_pressed(vk_escape); //pause
 control_key[1] = keyboard_check_pressed(ord('E')); //accept
 control_key[2] = keyboard_check_pressed(ord('Q')); // back
 
-//controller input
+//controller input//
+
+//movement
+move_stick[0] = gamepad_
+move_stick[1] = 
+move_stick[2] = 
+move_stick[3] =
+  
+//attack / block
+ attack_key[0] = gamepad_check_button_pressed(gp_shoulderr);
+ attack_key[1] = gamepad_check_button_pressed(gp_shoulderrb);
+ attack_key[2] = gamepad_check_button_pressed(gp_shoulderl);
+ attack_key[3] = gamepad_check_button_pressed(gp_shoulderlb);
 
 //action buttons
 action_button[0] = gamepad_check_button_pressed(gp_face1);//use / A
